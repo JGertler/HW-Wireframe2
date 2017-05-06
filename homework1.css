@@ -1,0 +1,167 @@
+
+
+#background{
+  	margin:0;
+  	z-index: -1;
+  	width: 100%;
+  	height: auto;
+
+}
+
+header {
+	position: relative;
+}
+
+h1{
+	text-align: center;
+	width: 210px;
+	color: white;
+	background-color: teal;
+	padding-top:30px;
+	padding-bottom: 25px;
+	width: 20%;
+	position: absolute;
+	bottom: -75px;
+	left: 90px;
+	z-index: 0;
+	font-family: Georgia;
+	margin-left: 45px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+	margin-left: 70%;
+	font-size: 16px;
+	font-family: Arial;
+}
+
+li {
+	display: inline;
+    border-right: 1px solid #bbb;
+}
+
+li:last-child {
+    border-right: none;
+}
+	
+
+ 
+#container {
+	padding-top: 15px;
+	padding-bottom: 10px;
+	border-color: #ccc;
+  	border-bottom: groove;
+  	border-top: groove;
+  	border-top-width: thin;
+  	background-color: white;
+	z-index: -1;
+	width: 100%;
+
+}
+
+
+#aboutMe {
+
+	border: solid;
+	border-color: #ccc;
+	width: 650px;
+	height: 400px;
+	float:left;
+	padding: 15px;
+	margin: 100px 40px 0px 90px;
+	z-index: 1;
+	background:white;
+	clear:right;
+
+}
+
+
+#connect {
+	background-color: white;
+	border: solid;
+	border-color: #ccc;
+	width: 150px;
+	height: 150px;
+	padding: 5px;
+	margin: 40px;
+	z-index: 0;
+	float:right;
+	position: relative;
+	left: 320px;
+	bottom: 475px;
+}
+
+p {
+	font-size: 12px;
+	font-family: arial;
+	line-height: 200%;
+	color:#777777;
+
+
+}
+
+h2 {
+	border-bottom: solid;
+	border-color: #ccc;
+	color: teal;
+	line-height: 250%;
+}
+
+#bio-image {
+	
+	width: 30%;
+	height: auto;
+	margin: 10px;
+	float:left;
+	
+}
+
+
+footer {
+	color: white;
+	border-style: solid;
+	border-color: teal gray gray;
+	background-color: gray;
+	margin:0;
+	padding:50px;
+	position:relative;
+	top: 220px;
+	clear:both;
+
+
+}
+
+#footerText {
+
+	position: absolute;
+	left: 45%;
+}
+
+
+
+h3{
+	color:teal;
+	border-bottom: solid;
+	border-width: thin;
+	border-color: #ccc;
+	line-height: 250%;
+
+}
+
+
+.buttons {
+	font-size: 30px;
+	text-align: center;
+}
+
+#theBody {
+	background-image: url("LesBellesFemme.jpg");
+	background-image:;
+	background-repeat: no-repeat;
+	height: 90%;
+	background-attachment: fixed;
+
+}
+
